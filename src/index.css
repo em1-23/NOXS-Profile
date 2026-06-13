@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Avengers;
+    src: url(./Fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+@font-face {
+    font-family: CyberBank;
+    src: url(./Fonts/SDCyberPunkCityDemo.otf);
+}
+@font-face {
+    font-family: Rovelink;
+    src: url(./Fonts/Rovelink.otf);
+}
+:root{
+    --bg-color:#1f1f1f;
+    --color:#ffffff;
+    --Avengers:Avengers;
+    --Rovelink:Rovelink;
+    --CyberBank:CyberBank;
+    --Special-Color:#7700ff;
+}
+html{
+    background-color: var(--bg-color);
+    color: var(--color);
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    height: auto;
+    scroll-behavior: smooth;
+    height: auto;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color);
+}
+.Header{
+    display: flex;
+    padding: 1px 20px;
+    align-items: center;
+    position: fixed;
+    justify-content: space-evenly;
+    text-align: right;
+    animation: GlassSlider ease both;
+    animation-timeline: view(0% 100%);
+    --Font-size:16px;
+    top: 1%;
+    width: 95%;
+}
+h1.logo{
+    color: var(--Special-Color);
+    font-size: calc(var(--Font-size)*2.5);
+    font-family: var(--Avengers);
+}
+ul.header{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    padding: 5px 20px;
+}
+@keyframes GlassSlider {
+    from{
+        position: fixed;
+        justify-content: space-between;
+        left: 1.5%;
+        width: 95%;
+        border-radius: .1rem;
+        background-color: #313131;
+        backdrop-filter: blur(0px);
+        border-bottom: 1.5px solid var(--Special-Color);
+    }
+    to{
+        position: fixed;
+        width: 40%;
+        left: 30%;
+        top: 85%;
+        justify-content: space-between;
+        background-color: #31313125;
+        backdrop-filter: blur(15px);
+        border-radius: 1.5rem;
+        border-bottom: none;
+        --Font-size:10px;
+    }
+}
+ul.header li{
+    padding: 5px 8px;
+    transition: all .3s ease;
+    border-radius: 5px;
+    font-size: calc(var(--Font-size)*0.8);
+}
+ul.header li:hover{
+    scale: 1.1;
+    background-color: var(--Special-Color);
+    translate: 0px -3px;
+}
+.logo2{
+    font-size: 25px;
+    color: #a14eff;
+    font-family: var(--Rovelink);
+}
+.CreatoreName{
+    font-size: 18px;
+    color: var(--Special-Color);
+    font-family: var(--CyberBank);
+    font-weight: 900;
+}
