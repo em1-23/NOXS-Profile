@@ -66,6 +66,9 @@ ul.header{
 .Rovelink{
     font-family: var(--Rovelink);
 }
+.Avengers{
+    font-family: var(--Avengers);
+}
 @keyframes GlassSlider {
     from{
         position: fixed;
@@ -195,7 +198,7 @@ ul.header li:hover{
     justify-content: start;
     gap: 50px;
 }
-.EXPe ,.Skills ,.About-Me ,.Projects{
+.EXPe ,.Skills ,.About-Me ,.Projects ,.Contact{
     margin: 10% 0%;
     padding: 2% 5%;
     position: relative;
@@ -239,4 +242,85 @@ ul.header li:hover{
     left: 6.7%;
     top: 33%;
     z-index: -1;
+}
+.ProjectsCard{
+    width: 25%;
+    height: 375px;
+    background-color: #2a2a2a;
+    padding: 5px 20px;
+    position: relative;
+    border-radius: 1rem;
+}
+.ProjectsCard img{
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.ProjectsCard h3{
+    margin-top: 60%;
+}
+.ProjectsCard ul{
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+}
+.ProjectsCard button{
+    margin: 0;
+    margin-top: 3%;
+}
+.ProjectsCard p{
+    font-size: 10px;
+    margin-top: -3%;
+}
+.Projects-Section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% -1%;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.Projects-Section .ProjectsCard{
+    margin: 2% 0%;
+}
+.ProjectsCard:hover img {
+    scale: 1.1;
+}
+.BOXFORM{
+    width: 95%;
+    border-radius: .3rem;
+    background-color: transparent;
+    color: var(--color);
+    border:1.5px solid var(--Special-Color);
+    padding: 3px 10px;
+    margin: 15px 0px;
+    position: relative;
+}
+.Section-Contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    gap: 60px;
+} 
+.Section-Contact form{
+    /* background-color: #303030; */
+    border: .5px solid var(--Special-Color);
+    padding: 5px 10px;
+    border-radius: .3rem;
+    width: 50%;
+}
+.Section-Contact .Rules{
+    border: .5px solid var(--Special-Color);
+    width: 20%;
+    font-size: 10px;
+    padding: 30px 30px;
+    height: 275px;
+    border-radius: .3rem;
+    margin: 0;
 }

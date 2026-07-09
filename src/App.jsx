@@ -5,6 +5,8 @@ import About from './AboutMe.jsx';
 import Skills from './Skills.jsx';
 import Experience from './Experience.jsx';
 import Projects from './Projects.jsx';
+import Contact from './Contact.jsx';
+
 function App(){
     return(
         <div>
@@ -14,6 +16,7 @@ function App(){
             <Skills className="Skills" />
             <Experience className="EXPe" />
             <Projects className="Projects" />
+            <Contact />
         </div>
     );
 }
