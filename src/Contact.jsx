@@ -8,7 +8,7 @@ function Contact(){
                 <form>
                     <span className="Rovelink">Send A Massage</span>
                     <input type="text" id="Name" className="BOXFORM" placeholder="Name"/>
-                    <input type="text" id="Massage" className="BOXFORM" placeholder="Message" style={{height:"100px"}} rows="5" cols="50" />
+                    <textarea id="Massage" className="BOXFORM Massage" placeholder="Message" style={{height:"100px"}} rows="5" cols="50" />
                     <button className="Special-Button" style={{padding:"5px 30px",margin:"0",marginBottom:"3%",width:"98%",color:"white"}}>Send Massage</button>
                 </form>
                 <section className="Rules">

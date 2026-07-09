@@ -298,9 +298,16 @@ ul.header li:hover{
     background-color: transparent;
     color: var(--color);
     border:1.5px solid var(--Special-Color);
-    padding: 3px 10px;
-    margin: 15px 0px;
+    padding: 10px 10px;
+    margin: 5px 0px;
     position: relative;
+    margin-top: 10px;
+    transition: all .2s ease;
+}
+.BOXFORM.Massage{
+    max-width: 95%;
+    max-height: 150px;
+    margin-top: 0px;
 }
 .Section-Contact{
     display: flex;
