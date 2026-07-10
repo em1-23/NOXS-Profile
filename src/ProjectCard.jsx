@@ -12,7 +12,7 @@ function ProjectCard(NOX){
                 <li className="skill">{NOX.Skil3}</li>
                 <li className="skill">{NOX.Skil4}</li>
             </ul>
-            <button style={{padding:"5px 30px",fontWeight:"500"}} className="Special-Button Outline"><a href={NOX.ProjectLink}>View Detilas</a></button>
+            <button style={{padding:"5px 30px",fontWeight:"500"}} className="Special-Button Outline"><a target="_blank" href={NOX.ProjectLink}>View Detilas</a></button>
         </div>
     );
 }
