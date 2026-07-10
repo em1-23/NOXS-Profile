@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NOX's Portfolio
 # -----------------------------
 <div align="center">
@@ -24,3 +25,6 @@
   #### NOX Films <br>
   #### NOX E-Commers <br>
 </div>
+=======
+# NOXS-Profile
+>>>>>>> 8f82bfb5d886a090ab51d1c447a5d8ba2e3a46e8
