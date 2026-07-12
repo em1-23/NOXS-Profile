@@ -10,12 +10,12 @@ import Contact from './Contact.jsx';
 function App(){
     return(
         <div>
-            <Header className='Header' />
-            <Entro className="Entro" id="" />
-            <About className="About-Me" id="About" />
-            <Skills className="Skills" />
-            <Experience className="EXPe" />
-            <Projects className="Projects" />
+            <Header />
+            <Entro />
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
             <Contact />
         </div>
     );
