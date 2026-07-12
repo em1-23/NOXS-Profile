@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://noxprofile.vercel.app/">
+  <a href="https://noxprofile.vercel.app/" target="_blank">
     <img src="https://github.com/user-attachments/assets/25140b39-fa58-40e9-a924-0f4cbfc864ba" alt="Project Screenshot" width="100%" />
   </a>
 </p>
