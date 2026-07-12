@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # NOX's Portfolio
 # -----------------------------
 <div align="center">
@@ -28,3 +29,6 @@
 =======
 # NOXS-Profile
 >>>>>>> 8f82bfb5d886a090ab51d1c447a5d8ba2e3a46e8
+=======
+
+>>>>>>> 5fdd5f8551e7729c550f9cde7fb3171fe22e028a
