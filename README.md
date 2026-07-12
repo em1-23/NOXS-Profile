@@ -3,7 +3,7 @@
 </p>
 <p aling="center">
   Hello There It's Mamhou ELnagar (Frontend Developer) 
-  ```See it
-    https://noxprofile.vercel.app/
-  ```
 </p>
+`See it
+  https://noxprofile.vercel.app/
+`
