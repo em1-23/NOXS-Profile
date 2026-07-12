@@ -23,6 +23,6 @@ Follow these steps to setup and run the project on your machine:
 
 ### 1. Download the Project
 * Download the project repository as a **ZIP file** and extract it.
-* Or clone it via Git:
+* Then clone it via Git:
   ```bash
-  git clone [https://github.com/em1-23/NOXS-Profile.git](https://github.com/em1-23/NOXS-Profile.git)
+  npm run dev 
